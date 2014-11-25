@@ -75,6 +75,8 @@ var default_conf = {
 
   DEBUG                    : process.env.PM2_DEBUG || false,
   WEB_INTERFACE            : parseInt(process.env.PM2_API_PORT)  || 9615,
+  WEB_EXT_INTERFACE            : parseInt(process.env.PM2_EXT_API_PORT)  || 9616,
+  
   MODIFY_REQUIRE           : process.env.PM2_MODIFY_REQUIRE || false,
 
   INTERACTOR_LOG_FILE_PATH : p.join(PM2_ROOT_PATH, 'agent.log'),

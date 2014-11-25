@@ -332,6 +332,16 @@ commander.command('web')
     CLI.web();
   });
 
+// Webext interface
+//
+commander.command('webext')
+  .description('launch an health extended API on port ' + cst.WEB_EXT_INTERFACE)
+  .action(function() {
+    console.log('Launching web interface on port ' + cst.WEB_EXT_INTERFACE);
+    CLI.webext();
+  });
+
+
 //
 // Save processes to file
 //

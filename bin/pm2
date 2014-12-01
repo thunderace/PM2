@@ -341,7 +341,6 @@ commander.command('webext')
     CLI.webext();
   });
 
-
 //
 // Save processes to file
 //
